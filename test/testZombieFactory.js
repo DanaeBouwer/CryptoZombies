@@ -11,9 +11,9 @@ beforeEach(async function () {
   })
 
  // first test: 2a
- it('should check that 1 zombie can be created per address', async function () {
-    await ZombieOwnershipInstance.createRandomZombie(newZombiii, {'from': accounts[0]})
-    let zombieByOwner = await ZombieOwnershipInstance.
-    assert.equal(zombieByOwner, 1, 'Owner created more than one zombie')
+ //it('should check that 1 zombie can be created per address', async function () {
+ //   await ZombieOwnershipInstance.createRandomZombie(newZombiii, {'from': accounts[0]})
+ //   let zombieByOwner = await ZombieOwnershipInstance.
+ //   assert.equal(zombieByOwner, 1, 'Owner created more than one zombie')
 
  })
